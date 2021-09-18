@@ -1,0 +1,34 @@
+/* Base */
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #5374FF;
+  --color-white: #ffffff;
+  --color-black: #313237;
+  --color-slateGray: #718797;
+  --color-body: #EBEBF0;
+  --color-card: #ffffff;
+
+  --ff-Amiko: 'Amiko', sans-serif;
+  --fw-regular: 400; 
+  --fw-semi-bold : 600; 
+  --fw-bold: 700; 
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--ff-Amiko);
+  background-color: var(--color-body);
+  color: var(--color-black);
+}
+
+/* End Base */
